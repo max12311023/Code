@@ -15,6 +15,8 @@
 </head>
 
 <body>
+<!--   bootstrap 一進來顯示水平滾輪，若是與Resizable衝突調整resizable-table-columns.css position: absolute; -->
+<div class="table-responsive">
        <table class="data table table-bordered" id="showTable" data-rtc-resizable-table="table.one">
       <thead>
         <tr>
@@ -44,6 +46,7 @@
         </tr>
       </tbody>
     </table>
+</div>
 </body>
 <script src="js/index.js"></script>
 <script src="js/store.js"></script>
