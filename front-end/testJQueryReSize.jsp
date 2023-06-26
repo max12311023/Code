@@ -4,16 +4,17 @@
 <html>
 <head>
 <meta charset="BIG5">
-	  <!-- jQuery -->
- 	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
- 	   <!-- Optional localStorage dependancy, for persistent column width storage -->
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.14/store.min.js"></script>
+ <!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Optional localStorage dependancy, for persistent column width storage -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.14/store.min.js"></script>
 
-  <!-- Plugin -->
- 	 <script src="js/jquery.resizableColumns.min.js"></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/jquery.resizableColumns.css">
-    <link rel="stylesheet" href="css/demo1.css">
+<!-- Plugin -->
+<script src="js/jquery.resizableColumns.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/jquery.resizableColumns.css">
+<link rel="stylesheet" href="css/demo1.css">
+
  <script>
     $(function(){
       $("table").resizableColumns({
@@ -21,8 +22,6 @@
       });
     });
   </script>
-
-
 
 <title>Insert title here</title>
 </head>
